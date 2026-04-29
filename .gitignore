@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Data (generated at runtime)
+backend/data/index.faiss
+backend/data/metadata.json
+backend/data/campusrule.db
+backend/data/exports/
+backend/data/phrases.json
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
